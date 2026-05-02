@@ -1,0 +1,34 @@
+{
+  "class_names": [
+    "healthy",
+    "aculus_olearius",
+    "olive_peacock_spot"
+  ],
+  "class_to_idx": {
+    "Healthy": 0,
+    "aculus_olearius": 1,
+    "olive_peacock_spot": 2
+  },
+  "idx_to_class": {
+    "0": "Healthy",
+    "1": "aculus_olearius",
+    "2": "olive_peacock_spot"
+  },
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "darija_labels": {
+    "healthy": "الورقة سليمة، ما فيها حتى مرض. ماتحتاج علاج.",
+    "aculus_olearius": "الورقة مصابة بالأكاروس. داء فطري يضر الثمار والأوراق. تحتاج علاج فوري.",
+    "olive_peacock_spot": "عين الطاووس — داء فطري خطير. تشوف بقع دارة مع حلقة بنية. معدية في الرطوبة."
+  },
+  "test_accuracy": 0.9191176470588235
+}
